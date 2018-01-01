@@ -41,7 +41,7 @@ Compile Beadstest.cpp using VS 2017 64 bit release. A small section outcommented
 ## Contributors
 
 Created by T. Vijverberg - 01-01-2018 @Radboud University  
-Contact me at tgm dot vijverb at online dot nl  
+Contact me at tgmvijverberg at online dot nl  
 
 
 ## License

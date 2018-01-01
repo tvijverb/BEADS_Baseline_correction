@@ -6,9 +6,9 @@
 
 #include <vector>
 #include <iostream>
-#include <Eigen/Dense>
-#include <Eigen/Sparse>
-#include <Eigen/Orderingmethods>
+#include "./Eigen/Dense"
+#include "./Eigen/Sparse"
+#include "./Eigen/Orderingmethods"
 
 
 // [x, f, cost] = beads(y, d, fc, r, lam0, lam1, lam2)

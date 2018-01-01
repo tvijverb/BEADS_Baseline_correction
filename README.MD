@@ -26,8 +26,9 @@ Hardly any C++ baseline correction implementation exists in the public domain. H
 2. Extract the zip file  
 3. Copy the eigen-eigen-xxx/Eigen folder to your project working directory  
 4. Download the files from this github page through git clone or http download  
-5. Past project content in working directory  
-6. Profit  
+5. Past project content in working directory 
+6. Modify SparseQR.h of EIGEN line 314: OUTCOMMENT "ord(matCpy, m_perm_c);" (This is a bug in EIGEN, assert is triggered without this modification)
+6. Compile should work now 
 
 ## API Reference
 

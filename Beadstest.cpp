@@ -31,7 +31,7 @@ int main()
 	std::copy(AB.at(0).begin(), AB.at(0).end(), output_iterator);*/
 
 	printf("Time taken: %.2fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
-	//system("pause");
+	system("pause");
     return 0;
 }
 

@@ -1,6 +1,6 @@
 ## Synopsis
 
-Baseline correction algorithm for correcting (chemical) chromatograms. This is a C++ implementation of the BEADS algorithm, the original paper and Matlab implementation are from from X. Ning and L. Duval http://www.sciencedirect.com/science/article/pii/S0169743914002032?via%3Dihub.
+Baseline correction algorithm for correcting (chemical) chromatograms. This is a C++ implementation of the BEADS algorithm, the original paper and Matlab implementation are from from X. Ning, I. Selesnick and L. Duval http://www.sciencedirect.com/science/article/pii/S0169743914002032?via%3Dihub.
 This implementation uses the EIGEN library for linear algebra. http://eigen.tuxfamily.org/index.php?title=Main_Page This implementation uses sparse matrices to reduce the computational complexity of BEADS.
 
 ## Code Example
@@ -32,7 +32,7 @@ Hardly any C++ baseline correction implementation exists in the public domain. H
 ## API Reference
 
 There is no API at the moment, this is just a bare-metal implementation. Don't expect great code performance from this.  
-A chromatogram with 4000 data points takes roughly 2.5s on a intel i7-2630HQ.   
+A chromatogram with 4000 data points takes roughly 2.5s to complete baseline correction on a intel i7-2630HQ.   
 
 ## Tests
 
@@ -46,5 +46,5 @@ Contact me at tgm dot vijverb at online dot nl
 
 ## License
 
-BEADS baseline correction is developed by X. Ning and L. Duval. This C++ implementation is based on their MATLAB code at https://nl.mathworks.com/matlabcentral/fileexchange/49974-beads--baseline-estimation-and-denoising-w--sparsity--chromatogram-signals-.  
+BEADS baseline correction is developed by X. Ning, I. Selesnick and L. Duval. This C++ implementation is based on their MATLAB code at https://nl.mathworks.com/matlabcentral/fileexchange/49974-beads--baseline-estimation-and-denoising-w--sparsity--chromatogram-signals-.  
 Ownership of the original BEADS function resides with the authors mentioned, this implementation will be removed at their request.  

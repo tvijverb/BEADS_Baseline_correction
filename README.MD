@@ -5,7 +5,7 @@ This implementation uses the EIGEN library for linear algebra. http://eigen.tuxf
 
 ## Code Example
 
-A minimum working example is provided in Beadstest.cpp:
+A minimum working example is provided in Beadstest.cpp: \n
 //   y: Noisy observation
 //   d: Filter order (d = 1 or 2)
 //   fc: Filter cut-off frequency (cycles/sample) (0 < fc < 0.5)

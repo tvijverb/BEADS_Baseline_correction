@@ -1,6 +1,6 @@
 ## Synopsis
 
-Baseline correction algorithm for correcting (chemical) chromatograms. This is a C++ implementation of the BEADS algorithm, the original paper and Matlab implementation are from from X. Ning, I. Selesnick and L. Duval http://www.sciencedirect.com/science/article/pii/S0169743914002032?via%3Dihub.
+Baseline correction algorithm for correcting (chemical) chromatograms. This is a C++ implementation of the BEADS algorithm, the original paper and Matlab implementation are from from X. Ning, I. Selesnick and L. Duval http://dx.doi.org/10.1016/j.chemolab.2014.09.014.
 This implementation uses the EIGEN library for linear algebra. http://eigen.tuxfamily.org/index.php?title=Main_Page This implementation uses sparse matrices to reduce the computational complexity of BEADS.
 
 ## Code Example
